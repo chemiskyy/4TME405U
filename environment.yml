@@ -1,0 +1,23 @@
+name: clustering
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - ipykernel
+  - scipy
+  - numpy
+  - matplotlib
+  - pandas
+  - pandas-datareader>=0.8.1
+  - geopandas
+  - geopy
+  - gpxpy
+  - unidecode
+  - simplekml
+  - folium
+  - pip
+  - pip:
+    - bqplot>=0.11.2
+    - ipysheet>=0.4.4
+    - pyroutelib3
+    - tsp_solver2
